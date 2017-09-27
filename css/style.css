@@ -75,6 +75,11 @@ img, video, audio {
   max-width: 100%;
 }
 
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
 .wrapper {
   width: 960px;
   margin: 0 auto;
